@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 784.375 209.233" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="209.233" width="784.375" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Слой-1">
+<text fill="#000000" font-family="AvenirNext-UltraLight" font-size="100" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 288.275 44.3636)" x="0" y="0">
+<tspan textLength="493.1" x="0" y="100">AlmSystem</tspan>
+</text>
+<path d="M319.638 243.097" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10"/>
+<g opacity="1">
+<path d="M238.593 218.577" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10"/>
+<path d="M46.1958 204.749L46.9383 91.626" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M95.5248 203.341L120.625 93.0347" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M145.726 203.341L120.625 93.0347" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M83.0776 200.789L42.6757 200.716" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M207.065 121.485L166.663 121.413" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M207.065 131.563L166.663 131.49" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M207.065 142.152L166.663 142.08" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M122.538 183.431L98.2966 183.388" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M127.096 7.15023L3 110.675" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+<path d="M245.732 111.106L121.996 7.15023" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="8"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,467 @@
+@font-face {
+  src: url("./fonts/Montserrat-Bold.ttf");
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("./fonts/Montserrat-Medium.ttf");
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("./fonts/Montserrat-Regular.ttf");
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+$dark: #161618;
+$white: #f1f2f2;
+$title: #00008b;
+$orange: #ff6600;
+$red: #f44336;
+// $dark: #373737;
+// $white: #fff;
+// $title: #00185c;
+
+
+/* #region common */
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  background-color: $white;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.wrap {
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.text_lg {
+  font-weight: 700;
+  font-size: clamp(21px, 2cqi, 40px);
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: $title;
+}
+
+.text_md {
+  font-weight: 500;
+  font-size: clamp(20px, 2cqi, 30px);
+}
+
+.text_sm {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  padding-right: 30px;
+  width: 30%;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.right {
+  width: 60%;
+}
+
+.telorange {
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+  width: 68px;
+  transition: all 0.1s linear;
+}
+
+.telorange:hover {
+  transform: translateY(3px);
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: $dark;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__phone {
+    display: flex;
+  }
+
+  &__phone_img {
+    margin-right: 14px;
+    width: 18px;
+  }
+
+  &__tel {
+    font-size: 18px;
+    color: $white;
+    transition: all 0.1s linear;
+  }
+
+  &__tel:hover {
+    color: $orange;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  &__img {
+    height: 57%;
+  }
+}
+
+// звездочка для применение ко всем вложеностям SVG
+
+.logo * {
+  fill: $white;
+  stroke: $white;
+}
+
+/* #endregion */
+
+/* #region about */
+
+.about {
+  padding: 106px 0;
+  box-sizing: border-box;
+
+  &__content {
+    display: flex;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 65px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  &__title {
+    margin: 0 0 65px 0;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  &__phone {
+    display: flex;
+  }
+
+  &__phone_img {
+    margin-right: 8px;
+    width: clamp(20px, 2cqi, 34px);
+  }
+
+  &__tel {
+    color: $title;
+    transition: all 0.1s linear;
+  }
+
+  &__tel:hover {
+    color: $orange;
+  }
+
+  &__rigth {
+    width: 50%;
+  }
+}
+
+/* #endregion */
+
+/* #region advert */
+
+.advert {
+  margin-bottom: 80px;
+  padding: 1px 65px;
+  box-sizing: border-box;
+  background-color: $dark;
+
+  &__text {
+    font-weight: 400;
+    color: $white;
+  }
+}
+
+/* #endregion */
+
+/* #region gallery */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 106px 0;
+  box-sizing: border-box;
+  gap: 32px;
+}
+
+/* #endregion */
+
+/* #region descr */
+
+.descr {
+  padding-bottom: 65px;
+  box-sizing: border-box;
+
+  &__one {
+    margin-bottom: 65px;
+  }
+
+  &__left {
+    border-right: 2px solid $title;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__more_mob {
+    padding-bottom: 80px;
+    box-sizing: border-box;
+  }
+}
+
+/* #endregion */
+
+/* #region price */
+
+.price {
+  padding: 65px 0;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__tel {
+    font-size: 28px;
+    color: $dark;
+  }
+
+  &__tel:hover {
+    color: $orange;
+  }
+}
+
+/* #endregion */
+
+/* #region about-us */
+
+.aboutus {
+  padding: 65px 0;
+  box-sizing: border-box;
+
+  &__one {
+    margin-bottom: 65px;
+  }
+
+  &__title {
+    text-transform: capitalize;
+  }
+
+  &__text {
+    margin-top: 0;
+  }
+
+  &__phone {
+    display: flex;
+    justify-content: center;
+    padding: 65px 16px 0 16px;
+    box-sizing: border-box;
+  }
+}
+
+/* #endregion */
+
+/* #region footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: $dark;
+
+  &__copy {
+    font-size: 12px;
+    color: $white;
+  }
+}
+
+/* #endregion */
+
+/* #region media */
+
+@media (max-width: 992px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    text-align: left;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .about {
+    padding: 65px 0;
+  }
+
+  .about__content {
+    flex-direction: column;
+  }
+
+  .about__title {
+    margin: 0 0 40px 0;
+  }
+
+  .about__left,
+  .about__rigth {
+    width: 100%;
+  }
+
+  .about__left {
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+    padding: 0;
+  }
+
+  .advert {
+    margin-bottom: 65px;
+    padding: 1px 16px;
+  }
+
+  .advert__text {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .gallery {
+    padding: 65px 0 106px 0;
+  }
+
+  .descr__left {
+    margin-bottom: 26px;
+    border: none;
+  }
+
+  .descr__more {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .descr__more_mob {
+    padding-bottom: 65px;
+  }
+
+  .price__left {
+    justify-content: center;
+    margin-bottom: 65px;
+  }
+
+  .aboutus {
+    padding: 0 0 65px 0;
+  }
+
+  .aboutus__title {
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  ul {
+    padding: 0;
+  }
+
+  .text_md,
+  .text_sm,
+  .advert__text {
+    font-size: 18px;
+  }
+
+  .header__tel,
+  .header__phone_img {
+    font-size: 16px;
+  }
+
+  .about__descr {
+    text-align: center;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    padding: 65px 0;
+  }
+
+  .footer__copy {
+    font-size: 10px;
+  }
+
+  .aboutus__phone {
+    justify-content: flex-start;
+  }
+}
+
+/* #endregion */
