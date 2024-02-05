@@ -1,7 +1,7 @@
 import { Advert } from '../components/Advert'
 import { Descr } from '../components/Descr'
 import { Gallery } from '../components/Gallery'
-import { About } from '../components/about'
+import { About } from '../components/About'
 import { Phone } from '../components/Phone'
 import { Aboutus } from '../components/Aboutus'
 import { useLoaderData, useRouteLoaderData  } from 'react-router-dom'
